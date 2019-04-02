@@ -47,7 +47,7 @@ UWhite="\033[4;37m"
 
 printf $BCyan"\n"
 
-[[ -d $HOME/.pillager ]] || mkdir "$HOME/.pillager"
+[[ -d $HOME/.YDMP ]] || mkdir "$HOME/.YDMP"
 currentdir="$PWD"
 SAVEPATH="${1-$currentdir}"
 list=$HOME/.pillager/list
